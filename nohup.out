@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "isitdownbot.py", line 42, in <module>
+    time.sleep(5)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "isitdownbot.py", line 42, in <module>
+    time.sleep(5)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "isitdownbot.py", line 20, in <module>
+    mentionList = api.mentions_timeline(count=1)
+  File "build/bdist.linux-x86_64/egg/tweepy/binder.py", line 245, in _call
+  File "build/bdist.linux-x86_64/egg/tweepy/binder.py", line 227, in execute
+tweepy.error.RateLimitError: [{u'message': u'Rate limit exceeded', u'code': 88}]
